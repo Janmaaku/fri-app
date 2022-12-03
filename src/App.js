@@ -7,12 +7,13 @@ import Features from './pages/Features'
 import Pricing from './pages/Pricing'
 
 function App() {
+  console.log(window.location.pathname)
   return (
     <div>
         <Navbar/>
         <div>
           <Routes>
-            <Route path="/" element={<Home />}/>
+            <Route path="/reactapp" element={<Home />}/>
               <Route path="/home" element={<Home/>}/>
               <Route path="/features" element={<Features/>}/>
               <Route path="/pricing" element={<Pricing/>}/>
