@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/fri-app/static/css/main.073c9b0a.css",
-    "main.js": "/fri-app/static/js/main.f63989e9.js",
+    "main.js": "/fri-app/static/js/main.deede0c7.js",
     "static/media/img4.jpg": "/fri-app/static/media/img4.1dcfcb4f8d80f9802a4a.jpg",
     "static/media/img1.jpg": "/fri-app/static/media/img1.1a1b1a9a53d5839287f0.jpg",
     "static/media/img3.jpg": "/fri-app/static/media/img3.ae2cdbf72ebc37e0197f.jpg",
     "static/media/img2.jpg": "/fri-app/static/media/img2.ce01090ec75dde9a7d13.jpg",
     "index.html": "/fri-app/index.html",
     "main.073c9b0a.css.map": "/fri-app/static/css/main.073c9b0a.css.map",
-    "main.f63989e9.js.map": "/fri-app/static/js/main.f63989e9.js.map"
+    "main.deede0c7.js.map": "/fri-app/static/js/main.deede0c7.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.f63989e9.js"
+    "static/js/main.deede0c7.js"
   ]
 }
