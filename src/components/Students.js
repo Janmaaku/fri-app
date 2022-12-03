@@ -96,7 +96,7 @@
      return(
          <div>
           <h1>Student's List</h1>
-             <form method="get">
+             <form action="">
                  <input type="text" name="fname" value={fname} onChange = {(e) => setFname(e.target.value)} required/>
                 <input type="text" name="lname" value={lname} onChange = {(e) => setLname(e.target.value)} required/>
                  <input type="text" name="age"   value={age}   onChange = {(e) => setAge(e.target.value)} required/>
