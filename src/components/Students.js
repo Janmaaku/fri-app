@@ -24,6 +24,7 @@
         getData.append('lname', lname);    //key-value pairs
         getData.append('age', age);        //key-value pairs
         getData.append('function', 'insert');
+        
         axios({
             method: 'POST', //get / post
             url:    'http://localhost/sat-app/db2.php', //db link
@@ -37,6 +38,9 @@
                  console.log(students);
              })
             });
+            setFname('');
+            setLname('');
+            setAge('');
         
     }
 
