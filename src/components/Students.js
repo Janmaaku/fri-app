@@ -30,7 +30,7 @@
             data: getData,
             config: 'Content-Type="multipart/form-control"'  //data to be transferred
         }).then(function (response){
-            // alert("Successfully Inserted Student!");
+            alert("Successfully Inserted Student!");
             const url = 'http://localhost/sat-app/db2.php'; //link to db
                  axios.get(url).then((response)=>{
                  setStudents(response.data);
