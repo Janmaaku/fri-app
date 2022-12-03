@@ -17,7 +17,7 @@
              })
      },[]) //this
 
-     const submitBtn = function(){
+     const submitBtn = function(e){
         e.preventDefault();
         let getData = new FormData();
         getData.append('fname', fname);    //key-value pairs 
@@ -30,19 +30,13 @@
             data: getData,
             config: 'Content-Type="multipart/form-control"'  //data to be transferred
         }).then(function (response){
-            if(('fname', fname) === ""){
-                alert("Please input text");
-            }else{
-
-            
-            alert("Successfully Inserted Student!");
+            // alert("Successfully Inserted Student!");
             const url = 'http://localhost/sat-app/db2.php'; //link to db
                  axios.get(url).then((response)=>{
                  setStudents(response.data);
                  console.log(students);
              })
-            }
-        })
+            });
         
     }
 
